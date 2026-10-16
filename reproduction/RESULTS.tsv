@@ -1,0 +1,19 @@
+Paper item	Program	Line	Output	Input
+Figure 1 (fig:pipeline)	tex/main.tex	46	not a data figure	source pipeline diagram
+Table 1 (tab:dup)	code/14_duplicates.py	333	results/dup.json; results/dup_injection.csv	data/agg/aggregated-simple.parquet; data/derived/complete/
+Figure 2 (fig:replay)	code/14_duplicates.py	194	results/dup_days.csv; results/dup_null.csv	data/agg/aggregated-simple.parquet
+Figure 3 (fig:volume)	code/02_build.py	47	data/derived/panel_platform_day.parquet	data/agg/aggregated-simple.parquet
+Table 2 (tab:rules)	code/03_quality.py	41	results/quality_rules.csv	data/derived/field_combinations.parquet
+Table 3 (tab:dates)	code/09_timeliness.py	81	results/timeliness.json	data/derived/complete/timeliness_*.parquet
+Table 4 (tab:tl)	code/09_timeliness.py	28	results/timeliness_platforms.csv; results/timeliness_routes.csv	data/derived/complete/timeliness_*.parquet
+Figure 4 (fig:timeliness)	code/09_timeliness.py	28	results/timeliness_platforms.csv	data/derived/complete/timeliness_*.parquet
+Figure 5 (fig:scope)	code/16_extensions.py	58	results/ext_scope_monthly.csv; results/ext_scope_countries.csv	data/derived/complete/scope_*.parquet
+Figure 6 (fig:schema)	code/05_schema.py	66	results/schema_daily_series.csv; results/schema_sexualized_destinations.csv	data/derived/platform_day_category_2025q2q3.parquet
+Figure 7 (fig:keywords)	code/10_keywords.py	30	results/keywords_series.csv; results/keywords_platform_recovery.csv	data/derived/complete/keywords_*.parquet
+Table 5 (tab:cap)	code/04_capacity.py	82	results/capacity_regressions.csv; results/capacity_event.csv	data/derived/panel_platform_day.parquet
+Figure 8 (fig:capacity)	code/04_capacity.py	105	results/capacity_event.csv	data/derived/capacity_sample.parquet
+Figure 9 (fig:platforms)	code/04_capacity.py	117	results/capacity_platform.csv	data/derived/panel_platform_day.parquet
+Figure 10 (fig:weekday)	code/16_extensions.py	134	results/ext_weekday_share.csv	data/derived/complete/timeliness_*.parquet
+Table 6 (tab:enf)	code/12_enforcement.py	110	results/enforcement_att.csv; results/enforcement_robust.csv; results/enforcement.json	data/derived/enforcement_panel.parquet
+Figure 11 (fig:enf)	code/13_enforcement_robust.py	33	results/enforcement_robust.csv; results/enforcement_event.csv	data/derived/enforcement_panel.parquet
+Supplement Table A1 (tab:summary)	code/07_tables.py	202	results/quality.json; results/schema.json; results/timeliness.json; results/keywords.json; results/dup.json; results/reconcile.json	results/

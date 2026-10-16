@@ -1,0 +1,3 @@
+Linux Libertine O by Philipp H. Poll. Original unmodified OpenType files used by the LaTeX libertine package.
+https://ctan.org/pkg/libertine
+License: SIL Open Font License 1.1. See OFL.txt and the copyright notices embedded in each font.

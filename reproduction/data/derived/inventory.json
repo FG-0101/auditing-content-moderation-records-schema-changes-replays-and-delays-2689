@@ -1,0 +1,14 @@
+{
+  "agg_rows": 2344801,
+  "sors": 42633487544,
+  "platforms": 274,
+  "days": 1102,
+  "first_day": "2023-09-25",
+  "last_day": "2026-09-30",
+  "window_end": "2026-09-30",
+  "download_agg_rows": 2371814,
+  "download_last_day": "2026-10-09",
+  "partition_mismatch": 0,
+  "nonpositive_counts": 0,
+  "parquet_parts": 1095
+}

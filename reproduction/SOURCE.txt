@@ -1,0 +1,15 @@
+European Commission, DSA Transparency Database,
+https://transparency.dsa.ec.europa.eu/
+The retained reductions under data/ derive from publisher aggregate data and
+structured daily records released under CC BY 4.0 unless otherwise indicated.
+Attribution and an indication of changes are required; see LICENSE.txt and
+https://transparency.dsa.ec.europa.eu/page/data-license?lang=en.
+data/archive_snapshot_lock.json pins the publisher SHA1 values of the raw
+archives the reductions were built from.
+
+The bundled fonts under code/fonts/ are Linux Libertine O (SIL Open Font
+License 1.1, code/fonts/OFL.txt), used to render the manuscript figures.
+
+Third-party Python packages (duckdb, matplotlib, numpy, pandas, pyarrow,
+pyfixest, scipy and their dependencies, pinned in ENVIRONMENT.json) are
+installed external dependencies and are not vendored.

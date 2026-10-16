@@ -1,0 +1,18 @@
+Analysis code
+
+The analysis code is provided for peer review. No additional reuse license is
+declared.
+
+Source data
+
+European Commission owned content on the DSA Transparency Database website is
+supplied under CC BY 4.0 unless otherwise indicated. Attribution and an
+indication of changes are required. Separate rights may apply to third-party
+material. The reductions here are derived from publisher aggregate data and
+structured daily records. See
+https://transparency.dsa.ec.europa.eu/page/data-license?lang=en for the
+publisher terms.
+
+Third-party software
+
+The Python packages retain their respective licenses and are not vendored.
